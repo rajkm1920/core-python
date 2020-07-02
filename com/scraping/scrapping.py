@@ -32,5 +32,6 @@ job_elems = result.find_all('section', class_='card-content')
 #         continue
 #     print("Title : {}, company : {}, Location : {}, ".format(title_elem.text.strip(), company_elem.text.strip(), location_elem.text.strip()))
 
-python_jobs = job_elems.find_all('h2', string='Python')
+# python_jobs = job_elems.find_all('h2', string='Python')
 # print(python_jobs)
+
